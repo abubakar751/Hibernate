@@ -13,6 +13,10 @@
 		<property name="show_sql">true</property>
 		<mapping class="OnetoManyAnno.Question3"/>
 		<mapping class="OnetoManyAnno.Answer3"/>
+		<mapping class="manyTomany.Emp"/>
+		<mapping class="manyTomany.Project"/>
+		
+		
 		
 	</session-factory>
 </hibernate-configuration>
